@@ -285,9 +285,19 @@ hoslem.test(modelo1$y, fitted(modelo1), g=10)
 check_model(modelo1)
 
 # visualizando as predições
-fancy_plot <-  ggeffect(modelo1) |> 
-  plot() |> 
-  plot_grid()
+fancy_plot <-  ggeffect(modelo1)
+
+plots <- plot(fancy_plot)
+
+for (i in seq_along(plots)) {
+  ggsave(
+    filename = paste0("plot_", i, ".png"), # Nome dos arquivos
+    plot = plots[[i]],                    # Gráfico individual
+    device = "png",
+    dpi = 300,
+    width = 8, height = 6
+  )
+}
 
 # salvando resultado
 ggsave(

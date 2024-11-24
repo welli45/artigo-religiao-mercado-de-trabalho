@@ -1,0 +1,268 @@
+---
+title: "Redes de fé e trabalho: o impacto das redes religiosas na empregabilidade no Brasil"
+author: "Wellington Santos Souza"
+institute: "PPGS - UFMG"
+date: "2024-11-29"
+fontsize: 11pt
+format: 
+  beamer: 
+    aspectratio: 169
+    navigation: horizontal
+    theme: Berlin
+    colortheme: beaver
+    fonttheme: structurebold
+    header-includes: |
+      \titlegraphic{\includegraphics[width=0.2\paperwidth]{ufmg.png}}
+bibliography: references.bib
+---
+
+# Roteiro
+
+\small
+
+## Introdução - Contexo Religioso e Econômico no Brasil
+
+## Questão de Pesquisa e Hipóteses
+
+## Estratificação Social e Religião
+
+## Laços Fortes e Fracos no Mercado de Trabalho
+
+## Metodologia
+
+## Resultados
+
+## Discussão e Conclusões
+
+# Introdução - Contexo Religioso e Econômico no Brasil
+
+#### Mudança no cenário religioso e econômico do Brasil, com o crescimento do número de evangélicos e o período de crescimento econômico entre 2001 e 2013.
+
+-   Entre 1970 e 1990 o número de templos evangélicos cresceu mais de 16 vezes [@araújo2023].
+
+    -   Passando de 1.049 para 17.033
+
+    -   Em 2019, existiam 109.560 igrejas avngélicas
+
+        -   48.781 Igrejas Evangélicas Pentecostais
+
+        -   22.400 Igrejas Evangélicas Missionárias
+
+        -   12.825 Igrejas Neopentecostais
+
+        -   25.554 outras denominações evangélicas
+
+# Introdução - Contexo Religioso e Econômico no Brasil
+
+#### Censo Demográfico do Instituto Brasileiro de Geografia e Estatística (IBGE)
+
+-   Queda no catolicismo de 93% em 1970 para 67% em 2010.
+
+-   pessoas que se autodeclararam evangélicas, passando de 15,4% da população em 2000 para 22,2% (aproximadamente 42 milhões) em 2010 (IBGE, 2010).
+
+-   Datafolha (2022): cerca de 26% da população brasileira se declara evangélica.
+
+-   No contexto do capitalismo global, o Brasil viveu entre 2001 e 2013 um período de crescimento econômico.
+
+    -   Aumento contínuo do poder de compra do salário-mínimo, a implementação de programas de transferência de renda condicionada, como o Bolsa Família, e investimentos produtivos que impulsionaram a demanda.
+
+# Questão de Pesquisa e Hipótese
+
+### Questão de Pesquisa
+
+Como as redes de fé influenciam a empregabilidade no Brasil?
+
+### Hipótese
+
+As comunidades de culto atuam como uma estrutura de proximidade que impulsiona oportunidades de emprego e ganhos salariais por meio de trabalho formal ou informal para seus membros.
+
+-   Baseada na teoria da força dos laços fracos [@granovetter1973].
+
+-   A força dos laços é crucial na circulação de informações sobre vagas.
+
+# Estratificação Social e Religião
+
+## Religião influencia a estratificação social, moldando hábitos de consumo, trabalho e renda.
+
+#### Ética protestante como fator positivo para o crescimento econômico [@bernardelli2018].
+
+#### Crenças e práticas religiosas influenciam a posição dos indivíduos na hierarquia social.
+
+-   Mulheres muçulmanas e disparidades salariais (Abdelhadi, 2019).
+
+-   Discriminação religiosa no local de trabalho (Ecklund et al., 2020).
+
+# Laços Fortes e Fracos no Mercado de Trabalho
+
+### Teoria de Granovetter (1973)
+
+-   O autor argumenta que a força de um laço social é determinada por:
+
+    -   Tempo investido na relação: quanto mais tempo dedicado à relação, mais forte o laço.
+
+    -   Intensidade emocional: laços com maior carga emocional são mais fortes.
+
+    -   Intimidade e Confidências: laços que envolvem confidências mútuas indicam maior força.
+
+    -   Serviços Recíprocos: a troca de favores e ajuda mútua fortalece os laços
+
+### A teoria destaca a importância dos laços fracos por três motivos principais:
+
+1.  Pontes entre Grupos Sociais: Laços fracos atuam como pontes, conectando indivíduos de diferentes grupos sociais e possibilitando a circulação de informações que não estariam disponíveis em grupos fechados de laços fortes.
+
+# Laços Fortes e Fracos no Mercado de Trabalho
+
+2.  Menor Redundância de Informação: Indivíduos conectados por laços fracos tendem a ter acesso a informações diferentes, reduzindo a redundância presente em grupos de laços fortes, onde a informação circula de forma mais restrita.
+
+3.  Maior Alcance da Rede: Laços fracos expandem o alcance da rede social, aumentando as chances de encontrar oportunidades que não seriam acessíveis apenas através dos laços fortes
+
+### Contrário à hipótese dos laços fracos, postulamos que no caso dos círculos religiosos os laços fortes seriam a mediação por meio da qual as pessoas acedem a oportunidades de emprego, ganhos salariais e qualificação para a vida produtiva.
+
+# Laços Fortes e Fracos no Mercado de Trabalho
+
+## Estudos de Guimarães (2009) e Cadoná (2021) no Brasil: Laços fortes como importantes para o acesso a empregos
+
+-   Parcelas significativas de indivíduos consideram “as informações obtidas junto a familiares, amigos e conhecidos como sendo a forma mais corrente de buscar trabalho”, sendo que para uma parcela significativa de indivíduos essa é a forma que se mostra efetiva na obtenção de um emprego[@guimarães2009].
+-   0s laços fortes, em especial as redes familiares, de vizinhança e de amigos, que são importantes para os trabalhadores pesquisados, tanto no que se refere ao acesso às oportunidades de ocupação, quanto à criação de condições para realização de suas atividades profissionais para que se possa trabalhar (Cadoná; Tirelli; Areosa, 2021).
+
+# Metodologia
+
+\small
+
+## Base de dados
+
+*World Values Survey* (WVS), 7ª onda (2017-2020), dados do Brasil de 2018 [@wvsdata].
+
+## Método
+
+Regressão logística binominal.
+
+::::: columns
+::: {.column width="70%"}
+## Variável dependente
+
+**Empregabilidade:** Q279 - situação de trabalho atual. (1) Emprego de período integral (30h por semana ou mais); Emprego de tempo parcial (Menos de 30h por semana) e autônomo. E (0) como desempregado, composto por: Aposentado ou pensionista; Dona de casa não remunerada; Estudante; Desempregado.
+:::
+
+::: {.column width="30%"}
+## Variáveis independentes
+
+Filiação Religiosa / Sexo / Raça/Cor / Idade / Escolaridade
+:::
+:::::
+
+# Relação Caual
+
+![](relacao-causal.png)
+
+# Resultados - Probabilidades Preditas
+
+::::: columns
+::: {.column width="50%"}
+## Probabilidade de Emprego por Frequência a Cultos Religiosos
+
+![](plot_1.png){width="80%"}
+:::
+
+::: {.column width="50%"}
+## Probabilidade de Emprego por grupos religiosos
+
+![](plot_2.png){width="80%"}
+:::
+:::::
+
+# Resultados - Probabilidades Preditas
+
+::::: columns
+::: {.column width="50%"}
+## Probabilidade de Emprego por Idade
+
+![](plot_3.png){width="80%"}
+:::
+
+::: {.column width="50%"}
+## Probabilidade de Emprego por Sexo
+
+![](plot_4.png){width="80%"}
+:::
+:::::
+
+# Resultados - Probabilidades Preditas
+
+::::: columns
+::: {.column width="50%"}
+## Probabilidade de Emprego por Escolaridade
+
+![](plot_5.png){width="80%"}
+:::
+
+::: {.column width="50%"}
+## Probabilidade de Emprego por Cor/Raça
+
+![](plot_6.png){width="80%"}
+:::
+:::::
+
+# Resultados
+
+\small
+
+## Teste de Análise de Deviance para o modelo de regressão logística (Rao-Scott LRT)
+
+| Variável                | $\chi^2$ | Deff   | GL  | p.valor | Significância |
+|------------|------------|------------|------------|------------|------------|
+| **Frequência ao culto** | 26.0527          | 1.0116 | 6   | 0.0002  | \*\*\*        |
+| **Religião**            | 10.1443          | 0.8861 | 8   | 0.1879  |               |
+| **Idade**               | 219.5146         | 0.9964 | 5   | 0.0000  | \*\*\*        |
+| **Sexo**                | 69.2531          | 1.0257 | 1   | 0.0000  | \*\*\*        |
+| **Escolaridade**        | 50.5787          | 1.0039 | 2   | 0.0000  | \*\*\*        |
+| **Cor/raça**            | 7.7048           | 1.0516 | 3   | 0.0627  | .             |
+
+*Nota: Significância:* \*\*\*p \< 0,001; \*\*p \< 0,01; \*p \< 0,05; .p \< 0,1.\*
+
+# Resultados
+
+## Razões de Chances (Odds Ratios) para o modelo de regressão logística
+
+![](or.png){width="90%"}
+
+# Resultados
+
+### Razões de chance (odds ratio) para o modelo de regressão logística
+
+1.  Participar de cultos regularmente aumenta as chances de empregabilidade, especialmente para quem frequenta semanal ou mensalmente, em comparação com maior frequência.
+
+2.  Adultos jovens (25-44 anos) têm maior chance de emprego, enquanto as probabilidades caem drasticamente para pessoas com 55 anos ou mais, especialmente acima dos 65 anos.
+
+3.  Há desigualdade de gênero, com mulheres apresentando odds ratio de 0,39, indicando menor chance de empregabilidade em relação aos homens.
+
+4.  Maior escolaridade está fortemente associada a melhores chances de empregabilidade, enquanto indivíduos de cor preta/parda e indígenas têm menores chances em comparação com brancos.
+
+# Discussão e Conclusões
+
+\small
+
+### Importância do envolvimento ativo em comunidades religiosas.
+
+Este achado é consistente com outros estudos que destacam o papel das comunidades religiosas como fontes de capital social, facilitando o acesso a informações sobre vagas de emprego e suporte emocional durante processos de busca de trabalho.
+
+### Necessidade de pesquisas futuras para aprofundar a compreensão dos mecanismos de inserção laboral.
+
+Esses resultados abrem espaço para futuras pesquisas que explorem os mecanismos de inserção dos indivíduos no mercado de trabalho brasileiro.
+
+### Limitações do estudo
+
+Falta de separação consistente entre grupos religiosos e informações sobre como os indivíduos conseguiram seus empregos.
+
+-------------------------------------------------------------------------------
+
+\begin{center}
+\Huge{\textbf{\textcolor{red}{Agradeço a todos pela atenção!}}}
+\end{center}
+
+
+# Referências
+
+\small
+
+
