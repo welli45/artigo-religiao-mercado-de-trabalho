@@ -26,7 +26,10 @@ if(!require(flextable))(install.packages("flextable")); library(flextable)
 if(!require(equatiomatic))(install.packages("equatiomatic")); library(equatiomatic)
 if(!require(pacman)) install.packages("pacman");library(pacman)
 
-pacman::p_load(psych, car, MASS, DescTools, QuantPsyc, ggplot2)
+
+p_load(foreign, psych, car, MASS, DescTools, QuantPsyc, tidyverse,haven,
+       broom, stargazer, modelsummary, sjPlot, effects, pROC, skimr,
+       lmtest, dotwhisker, crosstable, writexl, equatiomatic, performance, ggeffects, sjPlot, gtsummary, DescTools, QuantPsyc, ResourceSelection, BaylorEdPsych)
 
 # Agora que temos os pacotes instalados podemos carregar a base de dados
 # carregando dados gerais 
@@ -275,6 +278,7 @@ Anova(modelo1)
 #     footnote_as_chunk = TRUE
 #   ) 
 
+hoslem.test(modelo1$y, fitted(modelo1), g=10)
 
 
 # verificando pressupostos
